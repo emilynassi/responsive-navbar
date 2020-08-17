@@ -1,6 +1,6 @@
 :root {
   --yellow: #fda700;
-  --green: #006d32;
+  --green: #046a38;
   --darkgreen: #003a1b;
   --gray: #f2f2f2;
   --lightgray: #d1cfcf;
@@ -67,6 +67,10 @@ nav > ul.navbar.open {
   text-transform: uppercase;
   font-size: 1rem;
   font-weight: 700;
+  border-bottom: 1px solid #000;
+}
+.nav-item.open {
+  border-bottom: transparent;
 }
 
 .nav-link {
@@ -111,7 +115,7 @@ nav > ul.navbar.open {
 }
 
 .dropdown-list-item {
-  border-top: 1px solid var(--lightgray);
+  border-top: 1px solid var(--green);
   padding: 0.625rem 1.25rem;
   color: #fff;
   font-weight: 200;
@@ -247,10 +251,12 @@ nav > ul.navbar.open {
   }
 
   .dropdown-list-item {
+    border-top: 1px solid var(--lightgray);
     padding: 0.625rem;
     color: var(--darkgray);
     font-weight: 700;
     font-size: 1rem;
+    text-transform: uppercase;
   }
 
   .dropdown-list-item:last-child {
