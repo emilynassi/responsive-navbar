@@ -265,6 +265,7 @@ nav > ul.navbar.open {
 /* PHONE */
 @media screen and (max-width: 576px) {
   nav > ul.navbar {
+    /*make menu full width on extra small screens for better UI */
     min-width: 100vw;
   }
 }
